@@ -1,0 +1,73 @@
+# PracticePvP Messages - supports & color codes
+# Placeholders: {killer} {victim} {winner} {loser} {team} {breaker} {seconds} {time} {status}
+
+# Queue
+queue-joined: "&eYou joined the queue! Waiting for an opponent..."
+queue-leave-hint: "&7Type &f/bf leave &7to leave the queue."
+queue-left: "&eYou left the queue."
+queue-not-in: "&cYou are not in any queue."
+queue-already-in: "&eYou are already in queue."
+queue-in-match: "&cYou are already in a match."
+queue-no-arena: "&cNo arenas available right now. Try again later."
+queue-busy: "&cAll arenas are currently busy. Please wait..."
+
+# Match start
+match-start-team: "&aMatch started! You are on team {team}&a!"
+
+# Kill
+kill-message: "&b{killer} &ekilled &b{victim}"
+
+# Respawn
+respawn-countdown: "&byou will respawn at &f{seconds}"
+respawn-spawned: "&ayou spawned"
+respawn-opponent: "{team}{player} &ehas respawned!"
+spawn-protection-seconds: 2
+
+# Bed break
+bed-break: "&e{breaker} &cbroke &b{team} &cteam bed! They can no longer respawn!"
+bed-break-title: "&cYour bed was destroyed!"
+bed-break-subtitle: "&7You will not respawn anymore."
+
+# Match end
+match-winner: "&6{winner} &ewins the match!"
+match-draw: "&6Time is up! It is a draw!"
+match-stopped: "&cMatch stopped by admin."
+match-lobby: "&aYou have been sent to the lobby."
+disconnect-win: "&a{winner} &ewins because &c{loser} &edisconnected!"
+
+# Victory / Lose titles (shown on screen)
+victory-title: "&6&lVICTORY!"
+victory-subtitle: "&eYou won the match!"
+lose-title: "&c&lDEFEAT!"
+lose-subtitle: "&7Better luck next time."
+
+# Scoreboard
+scoreboard-title: "&6&lPractice PvP"
+scoreboard-red-bed: "&c&lRed Bed: {status}"
+scoreboard-blue-bed: "&9&lBlue Bed: {status}"
+scoreboard-time: "&eTime: &f{time}"
+scoreboard-bed-alive: "&a\u2714"
+scoreboard-bed-dead: "&4\u2718"
+
+# Countdown
+countdown-chat: "&eMatch starts in &f{seconds}&e..."
+countdown-go: "&aFight!"
+countdown-title: "&e{seconds}"
+countdown-subtitle: "&7Get ready!"
+countdown-go-title: "&a&lGO!"
+
+# Fall damage
+falldamage-enabled: "&aFall damage enabled globally."
+falldamage-disabled: "&cFall damage disabled globally."
+
+# Sitem
+sitem-added: "&aLobby item added: &f{item} &ain slot &f{slot}&a."
+sitem-removed: "&aLobby item removed."
+sitem-not-found: "&cNo lobby item found with that name/slot."
+sitem-action-set: "&aAction set to &f{action}&a for held item."
+sitem-action-reset: "&aAction reset for held item."
+sitem-subtitle-set: "&aSubtitle set for held item."
+sitem-subtitle-reset: "&aSubtitle reset for held item."
+sitem-actionbar-set: "&aActionbar set for held item."
+sitem-actionbar-reset: "&aActionbar reset for held item."
+sitem-no-held: "&cYou are not holding a lobby item."

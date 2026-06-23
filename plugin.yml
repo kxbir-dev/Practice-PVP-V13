@@ -1,0 +1,22 @@
+name: PracticePvP
+version: 2.4.0
+main: ir.practice.pvp.PracticePvP
+author: PracticePvP
+description: 1v1 BedWars Practice PvP Plugin
+softdepend: [LuckPrefix]
+
+commands:
+  prc:
+    description: PracticePvP admin command
+    usage: /prc <subcommand>
+    permission: practicepvp.admin
+  bf:
+    description: Queue command
+    usage: /bf <queue|leave>
+  spectate:
+    description: Spectate a match
+    usage: /spectate <player>
+  falldamage:
+    description: Toggle fall damage globally
+    usage: /falldamage <true|false>
+    permission: practicepvp.admin
